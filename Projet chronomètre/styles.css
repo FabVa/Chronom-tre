@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.structure{
+    background-color: goldenrod;
+    padding: 1em;
+}
+
+#temps{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    font-size: 2em;
+}
+
+#lesBoutons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 2em;
+}
+
+button{
+    padding: 5px;
+    font-weight: bold;
+}
